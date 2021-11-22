@@ -1,0 +1,444 @@
+body{
+    color: antiquewhite;
+}
+
+p{
+    font-size: 15px;
+    color: red;
+    text-align: left;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    color: blueviolet;
+}
+h1{
+    font-size: 30px;
+    color: royalblue;
+    text-align:center
+}
+.wrap
+{
+    width: 1200px; /* kích thước chiều rộng trang web */
+    height: 750px;
+    float: left; /* canh div từ trái sang */
+    
+}
+ 
+/* id="header" thì phải định nghĩa bằng dấu # và tên id (header) */
+#header
+{
+    width: 1200px; /* kích thước chiều rộng trang web */
+    height: 150px;
+    float: left; /* canh div từ trái sang */
+    background-color: yellow; /* tạo màu để dễ nhìn */
+}
+ 
+.headnav
+{
+    width: 300px; /* kích thước chiều rộng của vùng thanh bên */
+    height: 150px;
+    float: left; /* canh div từ trái sang */
+    background-color: rgb(238, 213, 144); /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+}
+.headcontent
+{
+    width: 600px; /* kích thước chiều rộng của vùng nội dung */
+    height: 150px;
+    float: left; /* canh div từ trái sang */
+    background-color: rgb(193, 173, 230); /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+    
+}
+.headnavright{
+    width: 300px;
+    height: 150px;
+    float: left;
+    background-color: rgb(222, 152, 135);
+    box-sizing: border-box;
+}
+.main
+{
+    width: 1200px; /* kích thước chiều rộng trang web */
+    height: 500px;
+    float: left; /* canh div từ trái sang */
+}
+ 
+/* chiều rộng của 2 vùng div "nav" và "content" phải bằng tổng độ rộng của trang */
+/* chú ý padding, border, margin có thể ảnh hưởng đến độ rộng của trang web */
+.nav
+{
+    width: 300px; /* kích thước chiều rộng của vùng thanh bên */
+    height: 500px;
+    float: left; /* canh div từ trái sang */
+    background-color: lightgreen; /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+}
+ 
+.content
+{
+    width: 600px; /* kích thước chiều rộng của vùng nội dung */
+    height: 500px;
+    float: left; /* canh div từ trái sang */
+    background-color: lightblue; /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+    
+}
+.navright{
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: burlywood;
+    box-sizing: border-box;
+}
+ 
+.footer
+{
+    width: 1200px; /* kích thước chiều rộng của vùng nội dung */
+    
+    float: left; /* canh div từ trái sang */
+    background-color: rgb(194, 255, 192)194, 255, 192); /* tạo màu để dễ nhìn */
+    text-align: center;
+}
+.footnav
+{
+    width: 300px; /* kích thước chiều rộng của vùng thanh bên */
+    height: 100px;
+    float: left; /* canh div từ trái sang */
+    background-color: rgb(185, 144, 238); /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+}
+.footcontent
+{
+    width: 600px; /* kích thước chiều rộng của vùng thanh bên */
+    height: 100px;
+    float: left; /* canh div từ trái sang */
+    background-color: rgb(218, 238, 144); /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+}
+.footnavright
+{
+    width: 300px; /* kích thước chiều rộng của vùng thanh bên */
+    height: 100px;
+    float: left; /* canh div từ trái sang */
+    background-color: rgb(238, 144, 144); /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+}
+.feature-img{
+    max-width: 300px;
+}
+.boxing-img{
+    max-width: 250px;
+    max-height: 100px;
+}
+.feature-imgad{
+    width: 300px;
+    height: 150px;
+}
+.feature-imgfootad{
+    width: 300px;
+    height: 100px;
+}
+.feature-logo{
+    max-width: 300px;
+    height: 150px;
+    vertical-align: middle;
+    
+}
+.feature-headbanner{
+    width: 600px;
+    height: 150px;
+}
+.feature-footbanner{
+    width: 600px;
+    height: 100px;
+}
+.feature-menuad{
+    width: 290px;
+}
+
+#menu ul{
+    list-style-type: none; /*bo cham tron*/
+    background: #1f5545;
+    text-align: center;
+}
+
+#menu ul li{
+    color: brown;
+    display: inline-table; /*lam menu ngang*/
+    position: relative;
+    
+}
+#menu ul li >.sub-menustore{
+    display: none;
+    text-align: center;
+    position: absolute;
+}
+#menu ul li:hover .sub-menustore{
+    display: block;
+}
+#menu ul li >.sub-menureact{
+    display: none;
+    text-align: center;
+    position: absolute;
+}
+#menu ul li:hover .sub-menureact{
+    display: block;
+}
+#menu ul li >.sub-menuspeak{
+    display: none;
+    text-align: center;
+    position: absolute;
+}
+#menu ul li:hover .sub-menuspeak{
+    display: block;
+}
+#menu ul li >.sub-menushock{
+    display: none;
+    text-align: center;
+    position: absolute;
+}
+#menu ul li:hover .sub-menushock{
+    display: block;
+}
+#menu ul li >.sub-menuconnect{
+    display: none;
+    text-align: center;
+    position: absolute;
+}
+#menu ul li:hover .sub-menuconnect{
+    display: block;
+}
+/*trang tri lai menu*/
+#menu ul li a{
+    color: red ;
+    text-decoration: fuchsia;
+    display:table ;
+}
+
+
+/*hieu ung di chuyen chuot*/
+#menu ul li a:hover{
+    background: red;
+    color: cyan;
+}
+#danhsach ul{
+    list-style-type: none;
+    background: #694206;
+    text-align: center;
+}
+
+#danhsach ul li{
+    color:royalblue;
+    display: inline-table;
+}
+#danhsach ul li a{
+    color:red;
+    text-decoration: cornsilk;
+    display: table;
+}
+#danhsach ul li a:hover{
+    background: red;
+    color: darkmagenta;
+}
+
+.table1{
+    background-color: yellow;
+    
+
+}
+.table1 th{
+    color:red;
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+.table1 td{
+    color: red;
+    font-size: 15px;
+    background-color: turquoise;
+    text-align: center;
+}
+.tableleft{
+    background-color: coral;
+}
+.tableleft td{
+    background-color: magenta;
+}
+.tablecenter{
+    background-color: royalblue;
+}
+.tablecenter td{
+    background-color: gold;
+}
+.tablenhac{
+    background-color: blueviolet;
+    width: 600px;
+}
+.tablenhac td{
+    background-color: goldenrod;
+}
+.tablenhac th{
+    background-color: greenyellow;
+}
+.tablehinh th{
+    color: chartreuse;
+}
+.tabledt{
+    width: 600px;
+}
+.tabledt th{
+    width: 200px;
+}
+.tablemenu{
+    background-color: limegreen;
+    width: 300px;
+}
+.tablemenu tr{
+    height: 30px;
+    background-color: peru;
+}
+
+#box{
+    width: 50px;
+    height: 30px;
+    background: blue;
+    transition: all 1s;
+
+}
+#box:hover{
+    background: red;
+    margin-left: 250px;
+}
+#nav-box{
+    width: 80px;
+    height: 20px;
+    background: cyan;
+    transition: all 1s;
+}
+#nav-box:hover{
+    background: green;
+    margin-left: 100px;
+}
+#ex-box{
+    width: 120px;
+    height: 20px;
+    background: orange;
+    transition: all 1s;
+}
+#ex-box:hover{
+    background: peru;
+    margin-left: 200px;
+}
+#ex-ex-box{
+    width: 170px;
+    height: 20px;
+    background: crimson;
+    transition: all 1s;
+}
+#ex-ex-box:hover{
+    background: cyan;
+    margin-left: 200px;
+}
+#in-box{
+    width: 80px;
+    height: 20px;
+    background: forestgreen;
+    transition: all 1s;
+}
+#in-box:hover{
+    background: fuchsia;
+    margin-left: 180px;
+}
+#wel-box{
+    width:  80px;
+    height: 20px;
+    background: indigo;
+    transition: all 1s;
+}
+#wel-box:hover{
+    background: gold;
+    margin-left: 200px;
+}
+#know-box{
+    width: 140px;
+    height: 20px;
+    background: blue;
+    transition: all 1s;
+}
+#know-box:hover{
+    background: chartreuse;
+    margin-left: 150px;
+}
+#tablet-box1{
+    width: 120px;
+    height: 20px;
+    transition: all 1s;
+}
+#tablet-box1:hover{
+    background: aquamarine;
+    margin-left: 120px;
+}
+#tablet-box2{
+    width: 120px;
+    height: 20px;
+    transition: all 1s;
+}
+#tablet-box2:hover{
+    background: aquamarine;
+    margin-left: 120px;
+}
+#tablet-box3{
+    width: 120px;
+    height: 20px;
+    transition: all 1s;
+}
+#tablet-box3:hover{
+    background: aquamarine;
+    margin-left: 120px;
+}
+#tablet-box4{
+    width: 120px;
+    height: 20px;
+    transition: all 1s;
+}
+#tablet-box4:hover{
+    background: aquamarine;
+    margin-left: 120px;
+}
+#tablet-box5{
+    width: 120px;
+    height: 20px;
+    transition: all 1s;
+}
+#tablet-box5:hover{
+    background: aquamarine;
+    margin-left: 120px;
+}
+#tablet-box6{
+    width: 120px;
+    height: 20px;
+    transition: all 1s;
+}
+#tablet-box6:hover{
+    background: aquamarine;
+    margin-left: 120px;
+}
+#tablet-box7{
+    width: 120px;
+    height: 20px;
+    transition: all 1s;
+}
+#tablet-box7:hover{
+    background: aquamarine;
+    margin-left: 120px;
+}
+#img-box{
+    width: 160px;
+    height: 110px;
+    transition: all 1s;
+}
+#img-box:hover{
+    background: blueviolet;
+    margin-left: 100px;
+}
